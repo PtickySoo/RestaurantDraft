@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant</title>
+    
+    <meta name="description" content="Fresh,Meats and groceries in Restaurant">
+    <meta name="keywords" content="Food,Chefs,Meat,Produce,Menu">
+    <link rel="stylesheet" type="text/css" href="styles3.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+    <body>
+        <nav class="hero">
+        <nav class="nav-bar">
+            <nav class="nav-logo">
+                <img src="Images/logo.png">
+            </nav>
+         <nav class="nav-links" id="nav-links"> 
+             <i class="fa fa-close" onclick="closeMenu()" ></i>
+       <ul>
+        <li><a href="index.html">Specials</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+        <li><a href="homePage.html">Home</a></li>
+        </ul>  
+            <button type="button" class="btn">Sign Up</button>
+        </nav>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <nav class="banner-title">
+                <h1>Fake <span>McDonald's Cuisine<br> Get the best cuisine here </span> for the best price</h1>
+           <button type="button" class="btn">Explore More</button>
+            </nav>
+            <nav class="vertical-bar">
+            <nav class="search-icon"> 
+                <i class="fa fa-th-list"></i>
+               <i class="fa fa-search"></i>  </nav>
+                
+             <nav class="social-icons">
+               <i class="fa fa-facebook"></i> 
+                <i class="fa fa-instagram"></i>
+               <i class="fa fa-twitter"></i> </nav>
+            </nav>
+</nav>
+        <nav class="notifications">
+       
+        <nav class="ntification-img">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/X2jakwIVLbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></nav>
+        
+        </nav>
+        <script>
+            var show = document.getElementById("nav-links");
+        function showMenu()
+            {
+              show.style.right = "0";  
+            }
+            
+              function closeMenu()
+            {
+              show.style.right = "-200px";  
+            }
+        </script>
+    </body>
+</html>
